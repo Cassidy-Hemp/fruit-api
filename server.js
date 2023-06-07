@@ -29,9 +29,7 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html')
 })
 
-app.get('/js', (req,res) => {
-    res.sendFile(__dirname + '/js/main.js')
-})
+app.use(express.static("public"))
 
 app.get('/api/:name', (req,res) => {
     const fruitName = req.params.name.toLowerCase()
