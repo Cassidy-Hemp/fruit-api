@@ -3,7 +3,7 @@ document.querySelector('button').addEventListener('click', findFruit)
 async function findFruit(){
     const fruit = document.querySelector('input').value
     try {
-        const response = await fetch(`http://localhost:8000/api/${fruit}`)
+        const response = await fetch(`https://rich-gold-seagull-yoke.cyclic.app/api/${fruit}`)
         const data = await response.json()
         
         console.log(data)
