@@ -18,6 +18,41 @@ let fruits = {
         'season': 'December-March',
         'origin': 'Southeast China'
     },
+    'pomegranate':{
+        'latinName': 'Punica granatum',
+        'season': 'September-November',
+        'origin': 'Persia'
+    },
+    'apple':{
+        'latinName': 'Malus',
+        'season': 'mid August-mid November',
+        'origin': 'Kazakhstan'
+    },
+    'pineapple':{
+        'latinName': 'Ananas comosus',
+        'season': 'March-July',
+        'origin': 'Argentina, Paraguay and Brazil'
+    },
+    'banana':{
+        'latinName': 'Musa',
+        'season': 'year round',
+        'origin': 'Malaya Peninsula, Indonesia, the Philippines and New Guinea.'
+    },
+    'strawberry':{
+        'latinName': 'Fragaria × ananassa',
+        'season': 'early June-early July',
+        'origin': 'Northern Europe and Chile'
+    },
+    'blueberry':{
+        'latinName': 'Vaccinium sect. Cyanococcus',
+        'season': 'early July-mid August',
+        'origin': 'North America'
+    },
+    'peach':{
+        'latinName': 'Prunus persica',
+        'season': 'mid July-late September',
+        'origin': 'China'
+    },
     'unknown fruit':{
         'latinName': 'unknown',
         'season': 'unknown',
