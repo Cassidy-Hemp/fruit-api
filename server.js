@@ -26,7 +26,11 @@ let fruits = {
 }
 
 app.get('/', (req, res) => {
-    res.send(__dirname + 'index.html')
+    res.sendFile(__dirname + '/index.html')
+})
+
+app.get('/js', (req,res) => {
+    res.sendFile(__dirname + '/js/main.js')
 })
 
 app.get('/api/:name', (req,res) => {
