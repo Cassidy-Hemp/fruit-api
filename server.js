@@ -53,6 +53,36 @@ let fruits = {
         'season': 'mid July-late September',
         'origin': 'China'
     },
+    'apricot':{
+        'latinName': 'Prunus armeniaca',
+        'season': 'May-September',
+        'origin': 'China'
+    },
+    'star fruit':{
+        'latinName': 'Averrhoa carambola',
+        'season': 'August-September and December-February',
+        'origin': 'Sri Lanka, the Moluccas, India, and Indonesia'
+    },
+    'papaya':{
+        'latinName': 'Carica papaya',
+        'season': 'Year Round!',
+        'origin': 'Southern Mexico'
+    },
+    'pear':{
+        'latinName': 'Pyrus',
+        'season': 'August-October',
+        'origin': 'China and Asia Minor until the Middle East'
+    },
+    'blackberry':{
+        'latinName': 'Rubus subg',
+        'season': 'July-August',
+        'origin': 'Europe and Asia'
+    },
+    'cherry':{
+        'latinName': 'Prunus avium',
+        'season': 'May-August',
+        'origin': 'Asia Minor in the fertile areas between the Black and Caspian seas'
+    },
     'unknown fruit':{
         'latinName': 'unknown',
         'season': 'unknown',
